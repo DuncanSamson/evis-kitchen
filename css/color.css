@@ -1,0 +1,20 @@
+/* Color Theme Swatches in Hex */
+.Abandoned-Greek-Cottage-1-hex { color: #373B8C; }
+.Abandoned-Greek-Cottage-2-hex { color: #EEEBCB; }
+.Abandoned-Greek-Cottage-3-hex { color: #23103B; }
+.Abandoned-Greek-Cottage-4-hex { color: #6BA7BF; }
+.Abandoned-Greek-Cottage-5-hex { color: #EDDFB5; }
+
+/* Color Theme Swatches in RGBA */
+.Abandoned-Greek-Cottage-1-rgba { color: rgba(54, 59, 140, 1); }
+.Abandoned-Greek-Cottage-2-rgba { color: rgba(237, 235, 202, 1); }
+.Abandoned-Greek-Cottage-3-rgba { color: rgba(35, 16, 59, 1); }
+.Abandoned-Greek-Cottage-4-rgba { color: rgba(107, 167, 191, 1); }
+.Abandoned-Greek-Cottage-5-rgba { color: rgba(237, 223, 181, 1); }
+
+/* Color Theme Swatches in HSLA */
+.Abandoned-Greek-Cottage-1-hsla { color: hsla(0, 43, 38, 1); }
+.Abandoned-Greek-Cottage-2-hsla { color: hsla(0, 50, 86, 1); }
+.Abandoned-Greek-Cottage-3-hsla { color: hsla(0, 57, 14, 1); }
+.Abandoned-Greek-Cottage-4-hsla { color: hsla(0, 39, 58, 1); }
+.Abandoned-Greek-Cottage-5-hsla { color: hsla(0, 60, 81, 1); }

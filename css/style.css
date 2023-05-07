@@ -1,3 +1,29 @@
+@font-face {
+    font-family: GFSNeohellenic-Bold;
+    src: url(../fonts/GFS_Neohellenic/GFSNeohellenic-Bold.ttf);
+}
+
+@font-face {
+    font-family: Roboto-regular;
+    src: url(../fonts/Roboto/Roboto-Regular.ttf);
+}
+
+:root{
+    --black: #000;
+    --white: #fff;
+    --blue-900: #373B8C;
+    --blue-50: #6BA7BF;
+    --gray-50: #EEEBCB;
+    --cream-50: #EDDFB5;
+    --purple-50: #23103B;
+    --santorini-pink: #BF048D;
+    --santorini-blue-600: #0455BF;
+    --santorini-blue-500: #0468BF;
+    --santorini-aqua-500: #05AFF2;
+    --santorini-green-500: #A9BF04;
+
+}
+
 html, body{
     margin: 0;
     padding: 0;
@@ -6,51 +32,67 @@ html, body{
 .navbar > ul {
     list-style: none;
     margin: 0;
-    padding: 0;\
+    padding: 0;
 }
 
 .navbar li {
+    font-size: 1.2em;
     display: inline;
-    padding: 0 1em ;
+    padding: 0 .5em ;
 }
+.logo {
+    padding: 0.5em;
+}
+
 .logo img{
     height: 3em;
     width: auto;
+    padding-bottom: 0.5em ;
 }
 :is(h1,h2,h3,h4,h5,h6) {
     text-transform: capitalize;
 }
 header {
+    font-family: GFSNeohellenic-Bold;
     display: flex;
     align-items: center;
-    background-color:var(--blue-50) ;
+    background-color:var(--white);
     padding-left: 2em;
     padding-right: 2em;
 }
 main{
+    background-color: var(--white);
+    border-left:.4em solid var(--black);
+    border-right:.4em solid var(--black);
+    border-bottom:.4em solid var(--black);
     margin-left: auto;
     margin-right: auto;
+    padding: 0em 1em 1em 1em;
     width: 80ch;
 }
-:root{
-    --blue-900: #373B8C;
-    --blue-50: #6BA7BF;
-    --gray-50: #EEEBCB;
-    --cream-50: #EDDFB5;
-    --purple-50: #23103B;
+
+main h1 {
+    margin-top: 0;
+    padding-top: 1em;
 }
 
 body{
     background-color: var(--cream-50);
+    font-family: Roboto-regular;
 }
 
 header a:link, 
-header a:visited
-{
-    color: var(--cream-50);
+header a:visited {
+    color: var(--black);
     text-decoration: none;
 }
 
 header a:hover{
-    color: var(--purple-50);
+    color: var(--santorini-pink);
+}
+
+.pattern-a {
+    background-color: var(--santorini-aqua-500);
+    background-image: url('../images/pattern-a.svg');
+    min-height: 64px;
 }
